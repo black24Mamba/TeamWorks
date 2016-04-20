@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A5B1E5C1CC710C20035A3E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B1E5B1CC710C20035A3E1 /* ViewController.m */; };
 		2A5B1E5F1CC710C20035A3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B1E5D1CC710C20035A3E1 /* Main.storyboard */; };
 		2A5B1E611CC710C20035A3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B1E601CC710C20035A3E1 /* Assets.xcassets */; };
 		2A5B1E641CC710C20035A3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B1E621CC710C20035A3E1 /* LaunchScreen.storyboard */; };
+		2A5B1E7A1CC714FC0035A3E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B1E711CC714FC0035A3E1 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2A5B1E7F1CC715060035A3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B1E7D1CC715060035A3E1 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		2A5B1E801CC715060035A3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B1E7E1CC715060035A3E1 /* main.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A5B1E511CC710C20035A3E1 /* YueQiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueQiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A5B1E5A1CC710C20035A3E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A5B1E5B1CC710C20035A3E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2A5B1E5E1CC710C20035A3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A5B1E601CC710C20035A3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A5B1E631CC710C20035A3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5B1E651CC710C20035A3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5B1E701CC714FC0035A3E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A5B1E711CC714FC0035A3E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A5B1E761CC714FC0035A3E1 /* APPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPHeader.h; sourceTree = "<group>"; };
+		2A5B1E771CC714FC0035A3E1 /* KEYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEYHeader.h; sourceTree = "<group>"; };
+		2A5B1E781CC714FC0035A3E1 /* THRHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THRHeader.h; sourceTree = "<group>"; };
+		2A5B1E791CC714FC0035A3E1 /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
+		2A5B1E7C1CC715060035A3E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A5B1E7D1CC715060035A3E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A5B1E7E1CC715060035A3E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +62,13 @@
 		2A5B1E531CC710C20035A3E1 /* YueQiu */ = {
 			isa = PBXGroup;
 			children = (
-				2A5B1E5A1CC710C20035A3E1 /* ViewController.h */,
-				2A5B1E5B1CC710C20035A3E1 /* ViewController.m */,
+				2A5B1E741CC714FC0035A3E1 /* Framework */,
+				2A5B1E7B1CC715060035A3E1 /* Application */,
+				2A5B1E6D1CC714FC0035A3E1 /* BaseClass */,
+				2A5B1E6E1CC714FC0035A3E1 /* CodeClass */,
+				2A5B1E6C1CC714F10035A3E1 /* Vender */,
+				2A5B1E751CC714FC0035A3E1 /* Header */,
+				2A5B1E6B1CC714F10035A3E1 /* Resources */,
 				2A5B1E5D1CC710C20035A3E1 /* Main.storyboard */,
 				2A5B1E601CC710C20035A3E1 /* Assets.xcassets */,
 				2A5B1E621CC710C20035A3E1 /* LaunchScreen.storyboard */,
@@ -69,6 +83,88 @@
 			children = (
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A5B1E6B1CC714F10035A3E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A5B1E6C1CC714F10035A3E1 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		2A5B1E6D1CC714FC0035A3E1 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		2A5B1E6E1CC714FC0035A3E1 /* CodeClass */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B1E6F1CC714FC0035A3E1 /* Controller */,
+				2A5B1E721CC714FC0035A3E1 /* Model */,
+				2A5B1E731CC714FC0035A3E1 /* View */,
+			);
+			path = CodeClass;
+			sourceTree = "<group>";
+		};
+		2A5B1E6F1CC714FC0035A3E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B1E701CC714FC0035A3E1 /* ViewController.h */,
+				2A5B1E711CC714FC0035A3E1 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A5B1E721CC714FC0035A3E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A5B1E731CC714FC0035A3E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A5B1E741CC714FC0035A3E1 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		2A5B1E751CC714FC0035A3E1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B1E761CC714FC0035A3E1 /* APPHeader.h */,
+				2A5B1E771CC714FC0035A3E1 /* KEYHeader.h */,
+				2A5B1E781CC714FC0035A3E1 /* THRHeader.h */,
+				2A5B1E791CC714FC0035A3E1 /* URLHeader.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		2A5B1E7B1CC715060035A3E1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B1E7C1CC715060035A3E1 /* AppDelegate.h */,
+				2A5B1E7D1CC715060035A3E1 /* AppDelegate.m */,
+				2A5B1E7E1CC715060035A3E1 /* main.m */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5B1E5C1CC710C20035A3E1 /* ViewController.m in Sources */,
+				2A5B1E7F1CC715060035A3E1 /* AppDelegate.m in Sources */,
+				2A5B1E801CC715060035A3E1 /* main.m in Sources */,
+				2A5B1E7A1CC714FC0035A3E1 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

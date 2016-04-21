@@ -7,7 +7,7 @@
 //
 
 #import "MessageTableViewController.h"
-
+#import <RongIMLib/RongIMLib.h>
 @interface MessageTableViewController ()
 
 @end
